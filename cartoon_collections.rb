@@ -17,7 +17,11 @@ def long_planeteer_calls(collection)
   i = 0
   output_array = []
   while i < collection.length
-    output_array << collection[i].length > 4 ? true : false
+    if collection[i].length > 4
+      output_array << true
+    else
+      output_array << false
+    end
     i += 1
   end
   if output_array.include?(true)
