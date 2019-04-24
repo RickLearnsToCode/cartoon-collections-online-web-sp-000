@@ -32,7 +32,11 @@ def long_planeteer_calls(collection)
 
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
+def find_the_cheese(collection)
+cheese_types = ["cheddar", "gouda", "camembert"]
+  i = 0
+  while i < collection.length
+    return collection[i] if cheese_types.include?(collection[i])
+    i += 1
+  end
 end
