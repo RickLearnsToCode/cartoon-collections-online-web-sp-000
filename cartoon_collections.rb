@@ -10,11 +10,22 @@ def summon_captain_planet(collection)
     i += 1
   end
   output_array
-  # Your code here
+  
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(collection)
+  i = 0
+  output_array = []
+  while i < collection.length
+    output_array << collection[i].length > 4
+    i += 1
+  end
+  if output_array.include?(true)
+      return true
+  else
+    return false
+  end
+
 end
 
 def find_the_cheese# code an argument here
