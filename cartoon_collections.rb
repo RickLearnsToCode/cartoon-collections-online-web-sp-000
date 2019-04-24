@@ -10,7 +10,7 @@ def summon_captain_planet(collection)
     i += 1
   end
   output_array
-  
+
 end
 
 def long_planeteer_calls(collection)
