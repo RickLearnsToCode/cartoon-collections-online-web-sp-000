@@ -7,6 +7,7 @@ def summon_captain_planet(collection)
   output_array = []
   while i < collection.length
     output_array << collection[i].capitalize + "!"
+    i += 1
   end
   output_array
   # Your code here
